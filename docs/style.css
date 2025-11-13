@@ -1,0 +1,692 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,600;1,14..32,600&display=swap');
+
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #fff;
+    color: #6B7280;
+
+}
+
+a {
+    color: #6B7280;
+    text-decoration: none; /* Подчеркивание */
+}
+
+ul {
+    /* Убираем точку возле ссылки */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+/*
+img {
+    max-width: 100%;
+}
+*/
+
+.tick {
+    margin-left: 5px;
+}
+
+.container {
+    max-width: 1360px; /*Ширина контента 1360*/
+    margin: 0 auto; /*Отступы слва и справа*/
+    padding: 0 15px;/*отступы, что бы при адаптации были не в 0*/
+}
+
+/*Шапка*/
+
+/* Уведомление -------------------------------------------------------------------------------------------------------------------------------- */
+
+.header {
+
+}
+
+.header__notification {
+    padding: 10px;
+    background-color: #634C9F;
+}
+
+.container {
+
+}
+
+.header__notification .container {
+    display: flex;
+    align-items: center; /*Выравнивание по вертикали*/
+    justify-content: center; /*Выравнивание по горизонтали*/
+    gap: 195px;
+}
+
+.header__notification__block-left {
+    color: #fff;
+    font-size: 12px;
+}
+
+.header__notification__block-left__desc {
+
+}
+
+.header__notification__block-right {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    color: #fff;
+}
+
+.header__notification__desc {
+    font-size: 12px;
+}
+
+.header__notification__block {
+    display: flex;
+    gap: 8px;
+}
+
+.header__notification__block__digital-desc {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header__notification__block__digital-desc__digital {
+    font-size: 18px;
+}
+
+.header__notification__block__digital-desc__desc {
+    font-size: 11px;
+}
+/*Шапка - верхняя часть ----------------------------------------------------------------*/
+
+.header__top {
+    padding: 15px;
+    border-bottom: 1px solid #D1D5DB;
+}
+
+.container {
+
+}
+
+.header__top .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__top__nav__left {
+    display: flex;
+    gap: 15px;
+}
+
+.header__top__nav__list-1 {
+    display: flex;
+    gap: 15px;
+}
+
+.header__top__nav__desc {
+    padding-left: 15px;
+    border-left: 1px solid #D1D5DB;
+}
+
+.header__top__nav__right {
+    display: flex;
+}
+
+.header__top__nav__list-2 {
+    display: flex;
+    gap: 15px;
+}
+
+/*Шапка - Средняя часть ------------------------------------------------------------*/
+
+.header__middle {
+    padding: 20px;
+}
+
+.logo {
+
+}
+
+/*Шапка - Нижняя часть --------------------------------------------------------------*/
+
+.header__bottom {
+    padding: 15px;
+    border-top: 1px solid #D1D5DB;
+    padding: 15px;
+}
+
+.container {
+
+}
+
+.header__bottom .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__bottom .container {
+
+}
+
+.header__bottom__nav__left {
+
+}
+
+.header__bottom__nav__list-1 {
+    display: flex;
+    gap: 25px;
+}
+
+.header__bottom__nav__right {
+    display: flex;
+    gap: 25px;
+}
+
+.header__bottom__nav__list-2 {
+    display: flex;
+    gap: 25px;
+}
+
+.header__bottom__nav__list-3 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 10px;
+    color: #fff;
+
+    width: 40px;
+    height: 20px;
+    background: #EA580C;
+    border-radius: 5px;
+}
+
+.tick-red {
+    color: #EA580C;
+}
+
+/*tabpanel - Приветственная панель -------------------------------------------------------------------------------------------------------*/
+
+.main {
+}
+
+.tabpanel {
+    /*Это для того, что страница была на весь экран*/
+    /*box-sizing: border-box;
+    min-height: 100vh;*/
+    padding: 166px; /*Внутренний отступ, сверху*/
+    background-image: url("./images/welcome-bg.jpg");
+    background-repeat: no-repeat; /*Что бы не дублировалась картинка*/
+    background-size: cover; /*Во весь экран*/
+    background-position: center; /*По центру*/
+}
+.container {
+}
+.container__text {
+    width: 660px;  /*Для текста задаем ширину 660*/
+}
+.tabpanel__subtitle {
+    margin-bottom: 6px;
+    font-size: 12px; /*Размер шрифта*/
+}
+.tabpanel__title {
+    font-size: 58px;
+}
+.tabpanel__desc {
+    margin-top: 7px;
+    margin-bottom: 42px;
+    font-size: 16px;
+    width: 530px;
+}
+
+.tabpanel__btn-block {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 14px;
+    color: #fff;
+
+    width: 135px;
+    height: 45px;
+    background: #634C9F;
+    border-radius: 10px;
+}
+
+.tabpanel__btn-block__block-text {
+
+}
+
+.tabpanel__btn-block__block-text__title {
+    display: flex;
+    align-items: end;
+    gap: 7px;
+
+}
+
+.tabpanel__btn-block__block-text__title__red {
+    color: #DC2626;
+    font-size: 28px;
+
+}
+
+.tabpanel__btn-block__block-text__title__black {
+    color: #111827;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.tabpanel__btn-block__block-text__desc {
+    font-size: 11px;
+}
+
+/*list - Список продуктов -----------------------------------------------------------------------------*/
+
+
+.list {
+    padding-top: 46px;
+    padding-bottom: 130px;
+}
+
+.container {
+
+}
+
+.list .container {
+    display: flex; /*Выстроить все значения в ряд*/
+    justify-content: space-between; /*Выставить на одинаковое расстояние*/
+    flex-wrap: wrap; /*Перенос для адаптации*/
+    gap: 10px; /*Для расстоянии при адаптации*/
+}
+
+.list__card {
+    width: 122px;
+    text-align: center; /*Положение в центре*/
+}
+
+.list__img-background {
+    width: 116px;
+    height: 116px;
+    border-radius: 50%; /*Делает закругление */
+    background: #F3F4F6; /*Цвет фона*/
+    object-fit: cover; /*Для пропорциональной картинки*/
+}
+
+.list__img {
+    width: 100%;
+    height: 122px;
+    object-fit: cover; /*Для пропорциональной картинки*/
+}
+
+.list__title {
+    font-size: 11px; /*У дизайнера 13*/
+    padding: 7px;
+}
+
+/*Подвал ------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.footer {
+    background-color: #F3F4F6;
+}
+
+/*Подвал-верх --------------------------------------------------------------------------------------*/
+
+.footer__section-top {
+    padding-top: 50px;
+}
+
+.container {
+
+}
+
+.footer__section-top .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__section-top__text-left {
+    width: 300px;
+}
+
+.footer__section-top__text-left__title {
+    font-size: 20px;
+}
+
+.footer__section-top__text-left__desc {
+    font-size: 13px;
+}
+
+.footer__section-top__text-right {
+    width: 420px;
+}
+
+.footer__section-top__text-right__frame {
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    overflow: hidden; /*Обрезаем под рамку*/
+    border-radius: 10px; /*Скругление*/
+    border: 2px solid #D1D5DB;
+    
+}
+
+.footer__section-top__text-right__frame__container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 15px;
+
+    height: 20px;
+}
+
+.envelope {
+
+}
+
+.footer__section-top__text-right__frame__container__text {
+    font-size: 14px;
+}
+
+.footer-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 500px;
+    font-size: 14px;
+    color: #fff;
+
+    width: 74px;
+    height: 50px;
+    background: #634C9F;
+}
+
+.footer__section-top__text-right__desc {
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+/*Подвал-центр --------------------------------------------------------------------------------------*/
+
+.footer__section-middle {
+    padding-top: 55px;
+}
+
+.container {
+
+}
+
+.footer__section-middle .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /*Выравнивание по верху */
+    
+    padding-top: 50px;
+    padding-bottom: 30px;
+    gap: 50px;
+
+    border-top: 1px solid #D1D5DB;    /* линия сверху */
+    border-bottom: 1px solid #D1D5DB; /* линия снизу */
+}
+
+.footer__section-middle__content-left {
+    
+}
+
+.footer__section-middle__content-left-title {
+    font-size: 14px;
+    color: #111827;
+}
+
+.footer__section-middle__content-left__desc {
+    font-size: 13px;
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.footer__section-middle__content-left__phone-black__content {
+    display: flex;
+    align-items: center;
+
+    gap: 22px;
+
+    margin-bottom: 30px;
+}
+
+.phone-black {
+
+}
+
+.footer__section-middle__content-left__phone-black__content__block {
+
+}
+
+.footer__section-middle_content-left__phone-black__text {
+    font-size: 12px;
+}
+
+.footer__section-middle_content-left__phone-black__number {
+    font-size: 20px;
+    margin-top: 3px;
+    color: #111827;
+}
+
+.footer__section-middle__content-left__envelope-black__content {
+    display: flex;
+    align-items: center;
+
+    gap: 22px;
+}
+
+
+.envelope-black {
+
+}
+
+.footer__section-middle__content-left__envelope-black__content__block {
+
+}
+
+.footer__section-middle_content-left__envelope-black__text {
+    font-size: 12px;
+}
+
+.footer__section-middle_content-left__envelope-black__mail {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #111827;
+}
+
+.footer__section-middle__content-right {
+    display: flex;
+}
+
+.footer__section-middle__content-right__content-block {
+    width: 250px;
+}
+
+.footer__section-middle__content-right__content-block__title {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #111827;
+}
+
+
+.footer__section-middle__content-right__content-block__text {
+    font-size: 13px;
+}
+
+.footer__section-middle__content-right__content-block__text li {
+    margin-bottom: 20px;
+}
+
+.footer__section-middle__content-right__content-block {
+
+}
+
+.footer__section-middle__content-right__content-block__apps__title {
+    font-size: 14px;
+    color: #111827;
+}
+
+.footer__section-middle__content-right__content-block__apps__list {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.footer__section-middle__content-right__content-block__apps {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 15px;
+}
+
+.google-play {
+
+}
+
+.footer__section-middle__content-right__content-block__apps__desc {
+    width: 100px;
+    font-size: 10px;
+}
+
+.app-store {
+
+}
+
+
+.footer__section-middle__content-rights__content-block__apps__media__title {
+    font-size: 12px;
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.footer__section-middle__content-rights__content-block__apps__media {
+
+}
+
+.Facebook {
+
+}
+
+.Twitter {
+
+}
+
+.Instagram {
+
+}
+
+.LinkedIn {
+
+}
+
+/*Подвал-низ --------------------------------------------------------------------------------------*/
+
+.footer__section-bottom {
+    padding: 50px;
+}
+
+.container {
+
+}
+
+.footer__section-bottom .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer__section-bottom__content-left {
+
+}
+
+.footer__section-bottom__content-left__content-block {
+
+}
+
+.footer__section-bottom__content-left__content-block__desc {
+    font-size: 12px;
+    margin-bottom: 22px;
+}
+
+.footer__section-bottom__content-left__content-block__services {
+
+}
+
+.VISA {
+
+}
+
+.MasterCard {
+
+}
+
+.PayPal {
+
+}
+
+.Skrill {
+
+}
+
+.Klarna {
+
+}
+
+.footer__section-bottom__content-right {
+
+}
+
+.footer__section-bottom__content-right__text-block {
+    display: flex;
+    font-size: 12px;
+    color: #111827;
+
+    display: flex;
+    gap: 8px;
+}
+
+.footer__section-bottom__content-right__text-block li {
+    border-bottom: 1px solid #111827; /* линия снизу */
+}
+
+.footer__section-bottom__content-right__text-block a {
+    color: #111827;
+}
+
+
+
