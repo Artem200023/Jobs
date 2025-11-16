@@ -58,6 +58,8 @@ img {
 .header__notification {
     padding: 10px;
     background-color: #634C9F;
+    color: #fff;
+    
 }
 
 .container {
@@ -72,12 +74,11 @@ img {
 }
 
 .header__notification__block-left {
-    color: #fff;
-    font-size: 12px;
+
 }
 
 .header__notification__block-left__desc {
-
+    font-size: 12px;
 }
 
 .header__notification__block-right {
@@ -89,6 +90,7 @@ img {
 
 .header__notification__desc {
     font-size: 12px;
+    opacity: 0.7;
 }
 
 .header__notification__block {
@@ -108,6 +110,7 @@ img {
 
 .header__notification__block__digital-desc__desc {
     font-size: 11px;
+    opacity: 0.7;
 }
 /*Шапка - верхняя часть ----------------------------------------------------------------*/
 
@@ -134,11 +137,16 @@ img {
 .header__top__nav__list-1 {
     display: flex;
     gap: 15px;
+    font-size: 12px;
 }
 
 .header__top__nav__desc {
     padding-left: 15px;
     border-left: 1px solid #D1D5DB;
+    font-size: 12px;
+}
+.header__top__nav__desc span {
+    color: #EA580C;
 }
 
 .header__top__nav__right {
@@ -148,6 +156,7 @@ img {
 .header__top__nav__list-2 {
     display: flex;
     gap: 15px;
+    font-size: 12px;
 }
 
 /*Шапка - Средняя часть ------------------------------------------------------------*/
@@ -156,7 +165,121 @@ img {
     padding: 20px;
 }
 
+.container {
+
+}
+
+.header__middle .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__middle__left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 .logo {
+
+}
+
+.header__middle__delivery {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.location {
+
+}
+
+.header__middle__delivery__text {
+
+}
+
+.header__middle__delivery__text__top {
+    font-size: 11px;
+    opacity: 0.7;
+}
+
+.header__middle__delivery__text__bop {
+    font-size: 13px;
+    color: #030712;
+}
+
+
+.header__middle__search-frame {
+    display: flex;
+    align-items: center;
+
+    width: 865px;
+    height: 50px;
+
+    border-radius: 10px; /*Скругление*/
+    background-color: #F3F4F6;
+
+    margin-left: 25px;
+    margin-right: 30px;
+}
+
+.header__middle__search-frame__block {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px;
+}
+
+.header__middle__search-frame__block__text {
+    font-size: 14px;
+}
+
+.search {
+
+}
+
+.header__middle__right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header__middle__account {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.account {
+
+}
+
+.header__middle__account__text {
+
+}
+
+.header__middle__account__text__top {
+    font-size: 11px;
+    opacity: 0.7;
+}
+
+.header__middle__account__text__bop {
+    font-size: 13px;
+    color: #030712;
+}
+
+.header__middle__heart-basket {
+}
+
+.heart {
+
+}
+
+.basket {
 
 }
 
@@ -166,6 +289,7 @@ img {
     padding: 15px;
     border-top: 1px solid #D1D5DB;
     padding: 15px;
+    font-size: 15px;
 }
 
 .container {
@@ -222,7 +346,7 @@ img {
 }
 
 .tick-red {
-    color: #EA580C;
+    
 }
 
 /*tabpanel - Приветственная панель -------------------------------------------------------------------------------------------------------*/
@@ -401,7 +525,7 @@ img {
     border: 2px solid #D1D5DB;
     
 }
-
+/*Сюда вернуться*/
 .footer__section-top__text-right__frame__container {
     display: flex;
     align-items: center;
